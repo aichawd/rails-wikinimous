@@ -11,6 +11,11 @@
   </head>
 
   <body>
+    <div class="navbar sticky-top bg-light p-2">
+      <h3><%= link_to 'Wikinimous', articles_path %></h3>
+      <p><%= link_to 'New article', new_article_path %></p>
+    </div>
+
     <%= yield %>
   </body>
 </html>
